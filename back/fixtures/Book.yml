@@ -1,0 +1,5 @@
+entity: Book
+items:
+  book{1..5}:
+    name: '{{name.title}}'
+    releaseDate: '{{date.past}}'
